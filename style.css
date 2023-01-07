@@ -6,10 +6,16 @@ body{
     margin: 0;
     padding: 0;
 }
+.contain{
+    display:block;
+    height: 520px;
+    background-image: url("solidblue.jpg");
+    margin-bottom: -400px;
+}
 .bold a{
     color: brown;
     text-decoration: none;
-    background: lightcyan;
+    background:wheat;
     padding: 30px;
     border: 5px solid black;
     border-radius: 5px;
@@ -17,8 +23,6 @@ body{
     text-align: center;
     display: flex;
     width: 150px;
-
-    
 }
 .navigation a{
     color: goldenrod;
@@ -61,7 +65,9 @@ body{
 .click{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: large;
+    margin-top: -10px;
 }
 .one{
     position: absolute;
@@ -69,7 +75,7 @@ body{
 }
 .contain-video{
     display: flex;
-    margin-top: 400px;
+    margin-top: 350px;
     justify-content: space-evenly;
     border: 2px solid black;
     padding: 20px;
@@ -93,7 +99,8 @@ body{
     text-align: end;
     background: darkred;
     color: gold;
-    
+    margin-top: -10px;
+    border: 2px solid black;
 }
 .quote h4{
     margin: 20px;
