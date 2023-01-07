@@ -1,0 +1,71 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.bold a{
+    color: brown;
+    text-decoration: none;
+    background: lightcyan;
+    padding: 30px;
+}
+.navigation a{
+    color: goldenrod;
+    text-decoration: none;
+}
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: black;
+    padding: 50px;
+    margin-top: -130px;
+    gap: 8px;
+    height: 10px;
+}
+.hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightseagreen;
+    height: 80px;
+    margin-top: -20px;
+    font-style: italic;
+}
+.bold{
+    display: flex;
+    justify-content: center;   
+}
+.para{
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    font-size: larger;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.one{
+    position: absolute;
+    margin-left: 35.2%;   
+}
+.contain-video{
+    display: flex;
+    margin-top: 400px;
+    justify-content: space-evenly;
+}
+.other{
+    display: flex;
+    margin-top: 390px;
+    margin-bottom: -350px;
+    justify-content: center;
+    background: lightgreen;
+    font-weight: 700;
+    padding: 50px;
+    font-size: larger;
+}
