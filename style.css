@@ -9,7 +9,9 @@ body{
 .contain{
     display:block;
     height: 530px;
-    background-image: url("solidblue.jpg");
+    background-image: url("pex1.jpg");
+    background-size: 850px 600px;
+    background-repeat: repeat;
     margin-bottom: -390px;
     border: 2px solid black;
     margin-top: -10px;
@@ -45,15 +47,15 @@ a:hover{
     height: 10px;
 }
 .hero-text{
+    color: wheat;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: lightseagreen;
+    background-image: url("pex3.jpg");
+    background-size: 400px;
     height: 80px;
     margin-top: -20px;
     font-style: italic;
-   /* margin-bottom: 10px; */
-   /* border: 2px solid black; */
 }
 .bold{
     display: flex;
@@ -65,19 +67,9 @@ a:hover{
     display: flex;
     text-align: center;
     font-size: larger;
-    background: dimgray;
+    background-image: url("pex3.jpg");
+    background-size: 400px;
     color: white;
-    border: 2px solid black;
-    margin-bottom: 10px;
-}
-.click{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: large;
-    margin-top: 15px;
-    /* margin-right: 600px; */
-    
 }
 .one{
     position: absolute;
@@ -92,14 +84,18 @@ a:hover{
     margin-bottom: 10px;
     background-image: url("solidblue.jpg");
     align-items: center;
+    background-image: url("pex3.jpg");
+    background-size: 400px;
     
 }
 .other{
+    color: white;
     display: flex;
     margin-top: 390px;
     margin-bottom: -350px;
     justify-content: center;
-    background: lightgreen;
+    background-image: url("pex2.jpg");
+    background-size: 400px;
     font-weight: 700;
     padding: 50px;
     font-size: larger;
@@ -107,7 +103,8 @@ a:hover{
 .quote {
     display: flex;
     text-align: end;
-    background: darkred;
+    background-image: url("pex3.jpg");
+    background-size: 400px;
     color: gold;
     margin-top: -10px;
     border: 2px solid black;
