@@ -8,9 +8,11 @@ body{
 }
 .contain{
     display:block;
-    height: 520px;
+    height: 530px;
     background-image: url("solidblue.jpg");
-    margin-bottom: -400px;
+    margin-bottom: -390px;
+    border: 2px solid black;
+    margin-top: -10px;
 }
 .bold a{
     color: brown;
@@ -19,7 +21,7 @@ body{
     padding: 30px;
     border: 5px solid black;
     border-radius: 5px;
-    border-style: dotted; 
+    border-style: dashed; 
     text-align: center;
     display: flex;
     width: 150px;
@@ -27,6 +29,10 @@ body{
 .navigation a{
     color: goldenrod;
     text-decoration: none;
+    
+}
+a:hover{
+    color: red;
 }
 .navigation {
     display: flex;
@@ -46,7 +52,8 @@ body{
     height: 80px;
     margin-top: -20px;
     font-style: italic;
-   
+   /* margin-bottom: 10px; */
+   /* border: 2px solid black; */
 }
 .bold{
     display: flex;
@@ -61,13 +68,16 @@ body{
     background: dimgray;
     color: white;
     border: 2px solid black;
+    margin-bottom: 10px;
 }
 .click{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: large;
-    margin-top: -10px;
+    margin-top: 15px;
+    /* margin-right: 600px; */
+    
 }
 .one{
     position: absolute;
@@ -101,7 +111,7 @@ body{
     color: gold;
     margin-top: -10px;
     border: 2px solid black;
-    
+    font-style: italic;
 }
 .quote h4{
     margin: 20px;
